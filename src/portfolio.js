@@ -255,7 +255,7 @@ const contact = {
         ], // paragraph breaks will be entered after each item,
         link: {
             email: "m.naufaldi.dzakwan@gmail.com", // email takes precedance
-            other: "#"
+            other: "https://forms.gle/r9pDGRTRSbc7LNME8"
         },
         responseTimeMessage: ""
     },
