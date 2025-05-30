@@ -256,7 +256,7 @@ const contact = {
         link: {
             other: "https://forms.gle/r9pDGRTRSbc7LNME8"
         },
-        responseTimeMessage: ""
+        responseTimeMessage: "https://forms.gle/r9pDGRTRSbc7LNME8"
     },
     formEmbedLink: "" // inclusion of this link will take precedance
 }
