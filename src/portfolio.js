@@ -254,12 +254,11 @@ const contact = {
             "As I approach my 7th semester, I am looking to pursue an internship specifically in the field of AI and training related to industrial instrumentation.",
         ], // paragraph breaks will be entered after each item,
         link: {
-            email: "m.naufaldi.dzakwan@gmail.com", // email takes precedance
-            other: "#"
+            other: "https://forms.gle/r9pDGRTRSbc7LNME8"
         },
-        responseTimeMessage: ""
+        responseTimeMessage: "#"
     },
-    formEmbedLink: "" // inclusion of this link will take precedance
+    formEmbedLink: "https://forms.gle/r9pDGRTRSbc7LNME8" // inclusion of this link will take precedance
 }
 
 export default {
