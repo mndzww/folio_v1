@@ -62,8 +62,8 @@
 					<p :class="['fixed bottom-2 right-10 origin-top-right rotate-90 transition-all motion-reduce:transition-none duration-500', showLanding ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">📍 Based in {{ portfolio.greeting.basedLocation }}</p>
 				</div>
 				<footer class="block text-center text-sm md:hidden order-last mb-5">
-					<p>🚀 Designed & Created by <a href="https://maximshelepov.com" class="hover:text-link-color" target="_blank">Maxim Shelepov</a></p>
-					<a href="https://github.com/feifyKike/webdev_portfolio" class="hover:text-link-color" target="_blank">Code available on Github 👾</a>
+					<p>🚀 Designed & Created with love 🤍 by <a href="https://github.com/mndzww" class="hover:text-link-color" target="_blank">@mndzww</a></p>
+					<a href="https://github.com/mndzww" class="hover:text-link-color" target="_blank">Code available on Github 👾</a>
 				</footer>
 			</div>
 		</div>

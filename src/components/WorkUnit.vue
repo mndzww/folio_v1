@@ -10,8 +10,8 @@
         </div>
         <div class="flex flex-col space-y-4" :class="project.alignLeft ? 'text-left' : 'lg:text-right'">
             <p>{{ project.yearCompleted }}</p>
-            <h3 class="text-xl font-extrabold pb-2">{{ project.projectName }}</h3>
-            <p class="text-slate-500 dark:text-slate-300">{{ project.description }}</p>
+            <h3 class="text-xl font-extrabold pb-2" v-html="project.projectName"></h3>
+            <p class="text-slate-500 dark:text-slate-300" v-html=" project.description"></p>
             <p class="text-slate-600">{{ project.techStack }}</p>
             <div class="flex space-x-6 items-center text-slate-400" :class="!project.alignLeft ? 'lg:justify-end' : ''">
                 <a v-for="link in project.links" :href="link.url" class="flex items-center space-x-2 hover:text-link-color focus:text-link-color active:text-link-color" target="_blank">

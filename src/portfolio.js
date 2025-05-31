@@ -23,7 +23,7 @@ const greeting = {
     intro: "Hello 👋, my name is",
     name: "M. Naufaldi Dzakwan",
     message: "I'm a <em><u>Instrumentation Physics</u></em> student who has walked the path, gaining considerable experience in <em><u>AI/ML development</u></em>. And previously also experienced as a <em><u>IoT/Robotics Enthusiast</u></em> at my project in university. Currently, I'm developing Autonomous Car called SLAM Car to help Localisation and Mapping area in case at Logistic needs.",
-    basedLocation: "Bekasi City",
+    basedLocation: "Bekasi, Indonesia ",
     resumeLink: "https://drive.google.com/file/d/1ANg_3j_SvgW-v7MsuwzMvF0SMLAkZu7c/view?usp=sharing", // recommended: google drive file share link (change to "anyone on the internet can view")
     logo: {
         link: "images/initials.png", // use relative path from  parent directory -> ex: images/image.ext
@@ -44,8 +44,8 @@ const socialMediaLinks = {
 // --- 😎 About Section ---
 const about = {
     autobiography: [
-        "My name is M. Naufaldi Dzakwan, an undergraduate student in Instrumentation Physics at <em><strong>Padjadjaran University</strong></em>. I’m passionate about turning abstract concepts into real-world solutions—especially where coding meets instrumentation. Recently, I was honored to be accepted into the AI/ML path of the <em><strong>Google Developer Student Club at ITB</strong></em>. I’m excited to deepen my skills and apply them to my role as a teaching assistant.",
-        "You might not always find me in our department these days—but chances are, if I'm not coding or assisting in a lab, I’m probably on the campus badminton court smashing birdies instead of bugs. 😄🏸"
+        "My name is M. Naufaldi Dzakwan, an undergraduate student in Instrumentation Physics at <em><strong>Padjadjaran University</strong></em>. I’m passionate about turning abstract concepts into real-world solutions—especially where coding meets instrumentation. Recently, I was honored to be accepted into the <u>AI/ML path</u> of the <em><strong>Google Developer Student Club at ITB</strong></em>. I’m excited to deepen my skills and apply them to my role as a teaching assistant.",
+        "You might not always find me in our department these days—but chances are, if I'm not coding or assisting in a lab, I’m probably on the <u>campus badminton court</u> <em>smashing birdies instead of bugs</em>. 😄🏸"
     ], // Separated items are paragraphs
     techStack: [
         "LaTex",
@@ -63,7 +63,7 @@ const about = {
 // --- 🛡️ Experience Section ---
 const experiences = [
     {
-        position: "AI-IoT-UI/UX Academy",
+        position: "AI-IoT-UI/UX Academy --",
         company: {
             name: "Samsung Innov. Campus & COMPFEST UI",
             link: "https://www.linkedin.com/in/mnaufaldidzakwan/"
@@ -85,9 +85,9 @@ const experiences = [
         ]
     },
     {
-        position: "BEM Kema Unpad, AsLabKom 24/25",
+        position: "BEM Kema Unpad, AsLabKom 24/25 --",
         company: {
-            name: "Saturasi, LabKom",
+            name: "Saturasi, LabKom Unpad",
             link: "https://kema.unpad.ac.id/"
         },
         duration: "May 2024 - Dec 2024",
@@ -107,9 +107,9 @@ const experiences = [
 // --- 💻 Work Section ---
 const works = [
     {
-        projectName: "Website Praktikum AKN 24/25",
+        projectName: "<em>Website Praktikum AKN 24/25</em>",
         yearCompleted: "2025",
-        description: "Developed and maintained a centralized practicum website aimed at streamlining access to essential information for students participating. Additionally, the website features a dedicated section to highlight who top-performing students on their final project scores.",
+        description: "Developed a <u>centralized practicum website</u> aimed at streamlining access to essential information for students participating. Additionally, the website features a dedicated section to highlight who top-performing students on their final project scores.",
         techStack: "Figma, Wordpress-Elementor",
         links: [
             {
@@ -127,7 +127,7 @@ const works = [
         alignLeft: false
     },
     {
-        projectName: "Mini - IoT Smart Farm Based on PID Controller",
+        projectName: "<em>Mini - IoT Smart Farm Based on PID Controller</em>",
         yearCompleted: "2024",
         description: "Designed a this project using the Arduino R4 WiFi, integrated with the Arduino Cloud IoT framework. The system enables real-time monitoring and control of environmental parameters based on predefined thresholds.",
         techStack: "Arduino R4 IoT, Arduino Cloud, C Programming",
@@ -147,9 +147,9 @@ const works = [
         alignLeft: true
     },
     {
-        projectName: "Website BEM Kema Unpad Saturasi",
+        projectName: "<em>Website BEM Kema Unpad Saturasi</em>",
         yearCompleted: "2024",
-        description: "I redesigned official website to be more eye-catching and aligned with the department’s current visual identity, using Figma for UI/UX prototyping and WordPress-Elementor for implementation",
+        description: "I <u>redesigned official website</u> to be more eye-catching and aligned with the department’s current visual identity, using Figma for UI/UX prototyping and WordPress-Elementor for implementation",
         techStack: "Figma, Wordpress-Elementor",
         links: [
             {
@@ -167,10 +167,10 @@ const works = [
         alignLeft: false
     },
     {
-        projectName: "Raspi AI-Image Processing",
+        projectName: "<em>Raspi AI-Image Processing</em>",
         yearCompleted: "2025",
-        description: "Raspberry Pi provides a powerful alternative to Arduino and ESP for AI image processing, enabling local running of complex AI models for real-time vision tasks.",
-        techStack: "Python, OpenCV, PyTorch ",
+        description: "<u>Raspberry Pi env.</u> provides a powerful alternative to Arduino and ESP for AI image processing, enabling local running of complex AI models for real-time vision tasks.",
+        techStack: "Python, OpenCV, PyTorch",
         links: [
             {
                 label: "",
